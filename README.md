@@ -2,7 +2,7 @@
 
 The filename **"Data scientist task.R"** contains the completed code for all the task also with the printing the outputs in the console.
 
-# **TASK COMPLETED**
+# **Task Completed**
 1.)	Write code to read in the Excel file Data_Scientist_Exercise_File.xlsx sheet EXERCISE_INPUT_FILE  into a dataframe
 
 2.)	Clean the text of the entries in the DISEASE column
@@ -19,7 +19,7 @@ The filename **"Data scientist task.R"** contains the completed code for all the
 
 7.)	Write code to output the dataframe to an Excel File  called Data_Scientist_Exercise_Output_File.xlsx with the sheet name EXERCISE_OUTPUT_FILE
 
-# **PRINTING THE OUTPUTS IN THE CONSOLE**
+# **Printing the Outputs in the Console**
 1.)	The IDENTIFIER column value with the highest value in the PERCENTAGE column
 
 2.)	The sum of the values in the column NUMBER_TESTED

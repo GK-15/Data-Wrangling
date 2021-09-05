@@ -6,8 +6,8 @@ The filename **"Data scientist task.R"** contains the completed code for all the
 1.)	Write code to read in the Excel file Data_Scientist_Exercise_File.xlsx sheet EXERCISE_INPUT_FILE  into a dataframe
 
 2.)	Clean the text of the entries in the DISEASE column
-    -	TRYPs should be Trypanosomosis
-    -	PPR should be “Peste des petits ruminants”
+    -	TRYPs should be "Trypanosomosis"
+    -	PPR should be "Peste des petits ruminants"
     
 3.)	Filter the dataframe, so that only rows that have values in the YEAR_PUBLICATION column later than 2010 are kept - hint there is only one article like that.
 

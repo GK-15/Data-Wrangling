@@ -1,7 +1,7 @@
 #DATA WRANGLING
 #Loading the Excel file
 library(readxl)
-Data_Scientist_Exercise_File <- read_excel("Data Scientist/Data_Scientist_Exercise_File.xlsx")
+Data_Scientist_Exercise_File <- read_excel("Data_Scientist_Exercise_File.xlsx")
 #Transforming the excel file into Dataframe
 df = data.frame(Data_Scientist_Exercise_File)
 #Replacing the TRYPs and PPR
@@ -32,10 +32,10 @@ df_final_out <- df_filter_data[, c(1, 7, 2, 3, 4, 5, 6)]
 #outputting as the excel file
 install.packages("writexl")
 library("writexl")
-write_xlsx(df_final_out, "Data Scientist/Data_Scientist_Exercise_Output_File.xlsx")
+write_xlsx(df_final_out, "Data_Scientist_Exercise_Output_File.xlsx")
 #Printing values in the console
 #Maximum value in percentage and print the corresponding IDENTIFIER
 test <- max(df_final_out$PERCENTAGE, na.rm=T)
-df_final_out$IDENTIFIER[df_final_out$PERCENTAGE==26.3803680981595]
+df_final_out$IDENTIFIER[df_final_out$PERCENTAGE==test]
 #sum of the number tested
 sum(df_final_out[, 'NUMBER_TESTED'])
